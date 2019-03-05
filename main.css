@@ -1,40 +1,51 @@
-body{
-  font-family: monospace, 'Arial Narrow Bold', sans-serif;
+body {
+  font-family: monospace, "Arial Narrow Bold", sans-serif;
   margin: 0;
   padding: 0;
   color: #363636;
   background-color: #fcd41f;
 }
-h1,h2,h3,h4,p{
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 578.98px) {
-  .container{
+  .container {
     widows: 100%;
     background-color: #fcd41f;
     height: 100vh;
     padding-left: 10px;
     padding-right: 5px;
   }
-  header{
+  header {
     padding-top: 10px;
   }
-  header div h2{
+  header div h2 {
     float: left;
     padding-right: 5px;
   }
-  header p{
+  header p {
     clear: both;
     padding-top: 10px;
   }
-  main{
+  #display {
     width: 100%;
     text-align: center;
     display: flex;
     margin-top: 30px;
   }
-  .displayNumbers{
+
+  #displayPower {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+  }
+  .displayNumbers {
     width: 50px;
     height: 50px;
     border: 1px solid grey;
@@ -45,50 +56,60 @@ h1,h2,h3,h4,p{
     font-size: 30px;
     margin-right: 5px;
   }
-  div button{
+  div button {
     height: 35px;
     width: 100px;
     margin-top: 10px;
   }
-  div p{
+  div p {
     margin-top: 10px;
   }
-  #generate{
+  #generateNumbers {
     margin-top: 20px;
     padding-bottom: 30px;
   }
-
+  #generatePowerball {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
-  .container{
+  .container {
     width: 576px;
     margin: 0 auto;
     background-color: #fcd41f;
     padding-left: 10px;
     padding-right: 5px;
   }
-  header{
+  header {
     padding-top: 10px;
   }
-  header div h2{
+  header div h2 {
     padding-right: 5px;
   }
-  img{
+  img {
     width: 100px;
     height: auto;
   }
-  header p{
+  header p {
     clear: both;
     padding-top: 10px;
   }
-  main{
+  #display {
     width: 100%;
+    text-align: center;
+    display: flex;
+  }
+
+  #displayPower {
+    width: 100%;
+    text-align: center;
     display: flex;
     margin-top: 30px;
   }
-  .displayNumbers{
+  .displayNumbers {
     width: 80px;
     height: 80px;
     border: 1px solid grey;
@@ -99,15 +120,20 @@ h1,h2,h3,h4,p{
     font-size: 30px;
     margin-right: 5px;
   }
-  div button{
+  div button {
     height: 35px;
     width: 100px;
     margin-top: 10px;
   }
-  div p{
+  div p {
     margin-top: 10px;
   }
-  #generate{
+  #generateNumbers {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  #generatePowerball {
     margin-top: 20px;
     padding-bottom: 30px;
   }
